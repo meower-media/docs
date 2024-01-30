@@ -39,6 +39,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          routeBasePath: '/',
           editUrl:
             'https://github.com/meower-media-co/Meower-Docs/tree/main/docs/',
         },
@@ -62,9 +63,20 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'comingSoonSidebar',
+            sidebarId: 'objects',
             position: 'left',
-            label: 'Coming Soon',
+            label: 'Objects',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'restApi',
+            position: 'left',
+            label: 'REST API',
+          },
+          {
+            href: 'https://app.meower.org',
+            label: 'Meower',
+            position: 'right',
           },
           {
             href: 'https://github.com/meower-media-co/Meower-Docs',
@@ -72,6 +84,9 @@ const config = {
             position: 'right',
           },
         ],
+      },
+      colorMode: {
+        respectPrefersColorScheme: true,
       },
       prism: {
         theme: lightCodeTheme,

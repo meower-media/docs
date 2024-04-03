@@ -10,16 +10,18 @@ sidebar_label: User
 | - | - | - | - | - |
 | _id | string | The user's username. |
 | lower_username | string | The lower-case version of the user's username. |
-| uuid | UUID4 | The user's UUID4. |
-| created | integer | The user's creation timestamp in Unix seconds. |
-| pfp_data | integer | The user's selected profile picture. |
-| quote | string | The user's quote. |
+| uuid | UUID4 or null | The user's UUID4. |
+| created | integer or null | The user's creation timestamp in Unix seconds. |
+| pfp_data | integer or null | The user's selected profile picture. |
+| avatar | string | The ID of the avatar the user has. If the user has not set an avatar, this is an empty string. |
+| avatar_color | string | The border color of the avatar. A six-digit hex color. |
+| quote | string or null | The user's quote. |
 | flags | integer | The user's flags. |
-| permissions | integer | The user's admin permissions. |
+| permissions | integer or null | The user's admin permissions. |
 | lvl | integer | The user's admin level. | | ✓ |
 | ban* | [User Ban object](/objects/user-ban) | Ban status associated with the user. | ✓ | |
 | banned | boolean | Whether the user is currently banned. |
-| last_seen | integer | The timestamp in Unix seconds of when the user was last online. |
+| last_seen | integer or null | The timestamp in Unix seconds of when the user was last online. |
 | delete_after* | integer | The timestamp in Unix seconds of when the user is scheduled to be deleted. | ✓ | |
 
 **\* These fields are only returned when a user is fetching their own user profile.**

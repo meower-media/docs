@@ -24,9 +24,9 @@ The User Ban object is only used within the `ban` field on [User objects](/objec
 ### Example
 ```json
 {
-    state: "temp_restriction",
-    restrictions: 31,
-    expires: 1704587880,
-    reason: "Being too silly :p"
+    "state": "temp_restriction",
+    "restrictions": 31,
+    "expires": 1704587880,
+    "reason": "Being too silly :p"
 }
 ```

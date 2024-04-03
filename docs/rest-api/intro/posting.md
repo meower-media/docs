@@ -17,7 +17,7 @@ The endpoint for posting into home is `/home`, sending a POST request with this 
 
 For posting in livechat or group chats, you'll only need to change the endpoint to `/posts/livechat` or `/posts/CHAT_ID`, respectively.
 
-In exchance, you'll get a [post object](/objects/post#examples) that looks like this:
+In exchange, you'll get a [post object](/objects/post#examples) that looks like this:
 
 ```json
 {

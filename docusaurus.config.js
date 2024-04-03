@@ -74,6 +74,12 @@ const config = {
             label: 'REST API',
           },
           {
+            type: 'docSidebar',
+            sidebarId: 'cloudlink',
+            position: 'left',
+            label: 'Cloudlink',
+          },
+          {
             href: 'https://app.meower.org',
             label: 'Meower',
             position: 'right',

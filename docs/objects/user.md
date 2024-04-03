@@ -22,7 +22,7 @@ sidebar_label: User
 | ban* | [User Ban object](/objects/user-ban) | Ban status associated with the user. | ✓ | |
 | banned | boolean | Whether the user is currently banned. |
 | last_seen | integer or null | The timestamp in Unix seconds of when the user was last online. |
-| delete_after* | integer | The timestamp in Unix seconds of when the user is scheduled to be deleted. | ✓ | |
+| delete_after* | integer or null | The timestamp in Unix seconds of when the user is scheduled to be deleted. | ✓ | |
 
 **\* These fields are only returned when a user is fetching their own user profile.**
 

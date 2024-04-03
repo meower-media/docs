@@ -16,6 +16,7 @@ sidebar_label: Post
 | u | string | The username of the post author. | |
 | p | string | The content of the post. | |
 | unfiltered_p | string | The non-filtered content of the post. | ✓ |
+| pinned | boolean | Whether the post is pinned. | |
 | isDeleted | boolean | Whether the post is deleted. | |
 | mod_deleted | boolean | Whether the post was deleted by a moderator. | ✓ |
 | deleted_at | integer | The post's deletion timestamp in Unix seconds. | ✓ |

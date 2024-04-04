@@ -16,6 +16,8 @@ This can cause weird behavior if the server's timezone changes (e.g. daylight sa
 :::
 
 ### Structure
+
+<!-- prettier-ignore-start -->
 | Field | Type | Description |
 | - | - | - |
 | d | string | Day |
@@ -25,16 +27,18 @@ This can cause weird behavior if the server's timezone changes (e.g. daylight sa
 | mi | string | Minute |
 | s | string | Second |
 | e | integer | Unix seconds |
+<!-- prettier-ignore-end -->
 
 ### Example
+
 ```json
 {
-    "d": "13",
-    "mo": "06",
-    "y": "2022",
-    "h": "05",
-    "mi": "12",
-    "s": "32",
-    "e": 1655097173
+	"d": "13",
+	"mo": "06",
+	"y": "2022",
+	"h": "05",
+	"mi": "12",
+	"s": "32",
+	"e": 1655097173
 }
 ```

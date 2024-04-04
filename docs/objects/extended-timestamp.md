@@ -29,12 +29,12 @@ This can cause weird behavior if the server's timezone changes (e.g. daylight sa
 ### Example
 ```json
 {
-    d: "13",
-    mo: "06",
-    y: "2022",
-    h: "05",
-    mi: "12",
-    s: "32",
-    e: 1655097173
+    "d": "13",
+    "mo": "06",
+    "y": "2022",
+    "h": "05",
+    "mi": "12",
+    "s": "32",
+    "e": 1655097173
 }
 ```

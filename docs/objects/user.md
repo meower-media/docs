@@ -40,7 +40,7 @@ Permissions are implemented as bit maps. This means that they're stored as numbe
 | 7 | 128 | Can view which alts a user has |
 | 8 | 256 | Can send alerts |
 | 9 | 512 | Can kick users |
-| 10 | 1024 | Can clear a user's profile details
+| 10 | 1024 | Can clear a user's profile details |
 | 11 | 2048 | Can view ban states |
 | 12 | 4096 | Can ban or unban users |
 | 13 | 8192 | Can delete users |

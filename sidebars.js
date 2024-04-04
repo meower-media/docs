@@ -13,26 +13,26 @@
 
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
-  sidebar: ["root/intro"],
-  objects: [
-    "objects/user",
-    "objects/user-settings",
-    "objects/user-ban",
-    "objects/chat",
-    "objects/post",
-    "objects/extended-timestamp",
-  ],
-  restApi: ["rest-api/intro/authentication"],
-  cloudlink: [
-    "cloudlink/intro",
-    "cloudlink/commands/authpswd",
-    "cloudlink/packets/auth",
-  ],
-  restApi: [
-    "rest-api/intro/introduction",
-    "rest-api/intro/authentication",
-    "rest-api/intro/posting",
-  ],
+	sidebar: ["root/intro"],
+	objects: [
+		"objects/user",
+		"objects/user-settings",
+		"objects/user-ban",
+		"objects/chat",
+		"objects/post",
+		"objects/extended-timestamp",
+	],
+	restApi: ["rest-api/intro/authentication"],
+	cloudlink: [
+		"cloudlink/intro",
+		"cloudlink/commands/authpswd",
+		"cloudlink/packets/auth",
+	],
+	restApi: [
+		"rest-api/intro/introduction",
+		"rest-api/intro/authentication",
+		"rest-api/intro/posting",
+	],
 };
 
 module.exports = sidebars;

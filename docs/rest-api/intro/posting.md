@@ -13,7 +13,7 @@ The endpoint for posting into home is `/home`, sending a POST request with this 
 
 ```json
 {
-  "content": "Post content here"
+	"content": "Post content here"
 }
 ```
 
@@ -22,8 +22,8 @@ Your post can't contain more than 4000 characters or consist only of whitespaces
 
 ```json
 {
-  "error": true,
-  "type": "badRequest"
+	"error": true,
+	"type": "badRequest"
 }
 ```
 

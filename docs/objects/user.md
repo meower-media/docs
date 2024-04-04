@@ -64,24 +64,24 @@ Permissions are implemented as bit maps. This means that they're stored as numbe
 
 ```json
 {
-  "_id": "MikeDEV",
-  "lower_username": "mikedev",
-  "uuid": "a887becf-fe1d-492a-92c3-e2af7d15db28",
-  "created": 1649983115,
-  "pfp_data": 26,
-  "quote": "🦆👋 Friendly neighborhood duck enthusiast. Owner of Meower!",
-  "flags": 0,
-  "permissions": 1,
-  "lvl": 0,
-  "ban": {
-    "state": "none",
-    "restrictions": 0,
-    "expires": 0,
-    "reason": ""
-  },
-  "banned": false,
-  "last_seen": 1706574821,
-  "delete_after": null
+	"_id": "MikeDEV",
+	"lower_username": "mikedev",
+	"uuid": "a887becf-fe1d-492a-92c3-e2af7d15db28",
+	"created": 1649983115,
+	"pfp_data": 26,
+	"quote": "🦆👋 Friendly neighborhood duck enthusiast. Owner of Meower!",
+	"flags": 0,
+	"permissions": 1,
+	"lvl": 0,
+	"ban": {
+		"state": "none",
+		"restrictions": 0,
+		"expires": 0,
+		"reason": ""
+	},
+	"banned": false,
+	"last_seen": 1706574821,
+	"delete_after": null
 }
 ```
 
@@ -89,16 +89,16 @@ Permissions are implemented as bit maps. This means that they're stored as numbe
 
 ```json
 {
-  "_id": "MikeDEV",
-  "lower_username": "mikedev",
-  "uuid": "a887becf-fe1d-492a-92c3-e2af7d15db28",
-  "created": 1649983115,
-  "pfp_data": 26,
-  "quote": "🦆👋 Friendly neighborhood duck enthusiast. Owner of Meower!",
-  "flags": 0,
-  "permissions": 1,
-  "lvl": 0,
-  "banned": false,
-  "last_seen": 1706574821
+	"_id": "MikeDEV",
+	"lower_username": "mikedev",
+	"uuid": "a887becf-fe1d-492a-92c3-e2af7d15db28",
+	"created": 1649983115,
+	"pfp_data": 26,
+	"quote": "🦆👋 Friendly neighborhood duck enthusiast. Owner of Meower!",
+	"flags": 0,
+	"permissions": 1,
+	"lvl": 0,
+	"banned": false,
+	"last_seen": 1706574821
 }
 ```

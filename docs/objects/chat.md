@@ -32,22 +32,22 @@ The chat `livechat` is a special chat. It doesn't require you to be a member to 
 
 ```json
 {
-  "_id": "32f9ef7d-0903-4601-8a92-8cf5a8960efa",
-  "type": 0,
-  "nickname": "Meower Translators",
-  "owner": "mdwalters",
-  "members": [
-    "mdwalters",
-    "NotFenixio",
-    "WlodekM3",
-    "Discord",
-    "Tnix",
-    "WlodekM",
-    "delusions"
-  ],
-  "created": 1701911007,
-  "last_active": 1706568877,
-  "deleted": false
+	"_id": "32f9ef7d-0903-4601-8a92-8cf5a8960efa",
+	"type": 0,
+	"nickname": "Meower Translators",
+	"owner": "mdwalters",
+	"members": [
+		"mdwalters",
+		"NotFenixio",
+		"WlodekM3",
+		"Discord",
+		"Tnix",
+		"WlodekM",
+		"delusions"
+	],
+	"created": 1701911007,
+	"last_active": 1706568877,
+	"deleted": false
 }
 ```
 
@@ -55,13 +55,13 @@ The chat `livechat` is a special chat. It doesn't require you to be a member to 
 
 ```json
 {
-  "_id": "480ae7be-83ae-4fd6-96a7-eb898c549ab2",
-  "type": 1,
-  "nickname": null,
-  "owner": null,
-  "members": ["Tnix", "eri"],
-  "created": 1706595968,
-  "last_active": 1706596046,
-  "deleted": false
+	"_id": "480ae7be-83ae-4fd6-96a7-eb898c549ab2",
+	"type": 1,
+	"nickname": null,
+	"owner": null,
+	"members": ["Tnix", "eri"],
+	"created": 1706595968,
+	"last_active": 1706596046,
+	"deleted": false
 }
 ```

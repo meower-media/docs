@@ -13,7 +13,7 @@ If you do not provide a token to endpoints that require authorization, the respo
 
 ```json
 {
-  "error": true,
-  "type": "Unauthorized"
+	"error": true,
+	"type": "Unauthorized"
 }
 ```

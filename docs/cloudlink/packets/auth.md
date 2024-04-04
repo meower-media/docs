@@ -21,9 +21,9 @@ This packet is sent when the user has successfully logged in. It has two keys: a
 ## Relationship
 
 <!-- prettier-ignore-start -->
-
-| Field      | Type   | Description                                                                   |
-| ---------- | ------ | ----------------------------------------------------------------------------- |
-| username   | string | The user with whom the account has a relationship.                            |
-| state      | number | Always 2, meaning that the user is blocked.                                   |
+| Field | Type | Description |
+| - | - | - |
+| username | string | The user with whom the account has a relationship. |
+| state | number | Always 2, meaning that the user is blocked. |
 | updated_at | number | The Unix seconds representation of the date the relationship was last updated |
+<!-- prettier-ignore-end -->

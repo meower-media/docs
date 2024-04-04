@@ -29,10 +29,10 @@ const sidebars = {
     "cloudlink/packets/auth",
   ],
   restApi: [
-    'rest-api/intro/introduction',
-    'rest-api/intro/authentication',
-    'rest-api/intro/posting'
-  ]
+    "rest-api/intro/introduction",
+    "rest-api/intro/authentication",
+    "rest-api/intro/posting",
+  ],
 };
 
 module.exports = sidebars;

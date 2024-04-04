@@ -6,6 +6,8 @@ sidebar_label: User
 # User
 
 ### Structure
+
+<!-- prettier-ignore-start -->
 | Field | Type | Description | Optional | Deprecated |
 | - | - | - | - | - |
 | _id | string | The user's username. |
@@ -23,6 +25,7 @@ sidebar_label: User
 | banned | boolean | Whether the user is currently banned. |
 | last_seen | integer or null | The timestamp in Unix seconds of when the user was last online. |
 | delete_after* | integer or null | The timestamp in Unix seconds of when the user is scheduled to be deleted. | ✓ | |
+<!-- prettier-ignore-end -->
 
 **\* These fields are only returned when a user is fetching their own user profile.**
 
@@ -30,6 +33,7 @@ sidebar_label: User
 
 Permissions are implemented as bit maps. This means that they're stored as numbers, that should then be converted to binary. The indices where there is a binary `1` show that the permission at that index is given. In many languages, this can be consisely written as `(permissions & (1 << permission)) != 0`.
 
+<!-- prettier-ignore-start -->
 | Index | Number | Permission |
 | - | - | - |
 | 0 | 1 | Sysadmin; can do anything |
@@ -52,46 +56,49 @@ Permissions are implemented as bit maps. This means that they're stored as numbe
 | 17 | 131072 | Can edit chat information |
 | 18 | 262144 | Can send announcements |
 | 19 | 524288 | Can change which words are blocked by the profanity filter |
-
+<!-- prettier-ignore-end -->
 
 ### Examples
+
 #### Own user profile
+
 ```json
 {
-    "_id": "MikeDEV",
-    "lower_username": "mikedev",
-    "uuid": "a887becf-fe1d-492a-92c3-e2af7d15db28",
-    "created": 1649983115,
-    "pfp_data": 26,
-    "quote": "🦆👋 Friendly neighborhood duck enthusiast. Owner of Meower!",
-    "flags": 0,
-    "permissions": 1,
-    "lvl": 0,
-    "ban": {
-        "state": "none",
-        "restrictions": 0,
-        "expires": 0,
-        "reason": ""
-    },
-    "banned": false,
-    "last_seen": 1706574821,
-    "delete_after": null
+  "_id": "MikeDEV",
+  "lower_username": "mikedev",
+  "uuid": "a887becf-fe1d-492a-92c3-e2af7d15db28",
+  "created": 1649983115,
+  "pfp_data": 26,
+  "quote": "🦆👋 Friendly neighborhood duck enthusiast. Owner of Meower!",
+  "flags": 0,
+  "permissions": 1,
+  "lvl": 0,
+  "ban": {
+    "state": "none",
+    "restrictions": 0,
+    "expires": 0,
+    "reason": ""
+  },
+  "banned": false,
+  "last_seen": 1706574821,
+  "delete_after": null
 }
 ```
 
 #### Other user profile
+
 ```json
 {
-    "_id": "MikeDEV",
-    "lower_username": "mikedev",
-    "uuid": "a887becf-fe1d-492a-92c3-e2af7d15db28",
-    "created": 1649983115,
-    "pfp_data": 26,
-    "quote": "🦆👋 Friendly neighborhood duck enthusiast. Owner of Meower!",
-    "flags": 0,
-    "permissions": 1,
-    "lvl": 0,
-    "banned": false,
-    "last_seen": 1706574821
+  "_id": "MikeDEV",
+  "lower_username": "mikedev",
+  "uuid": "a887becf-fe1d-492a-92c3-e2af7d15db28",
+  "created": 1649983115,
+  "pfp_data": 26,
+  "quote": "🦆👋 Friendly neighborhood duck enthusiast. Owner of Meower!",
+  "flags": 0,
+  "permissions": 1,
+  "lvl": 0,
+  "banned": false,
+  "last_seen": 1706574821
 }
 ```

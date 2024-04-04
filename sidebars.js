@@ -28,6 +28,11 @@ const sidebars = {
     "cloudlink/commands/authpswd",
     "cloudlink/packets/auth",
   ],
+  restApi: [
+    'rest-api/intro/introduction',
+    'rest-api/intro/authentication',
+    'rest-api/intro/posting'
+  ]
 };
 
 module.exports = sidebars;

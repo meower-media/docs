@@ -22,7 +22,6 @@ const sidebars = {
     "objects/post",
     "objects/extended-timestamp",
   ],
-  restApi: ["rest-api/intro/authentication"],
   cloudlink: [
     "cloudlink/intro",
     "cloudlink/commands/authpswd",

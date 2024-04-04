@@ -13,7 +13,6 @@
 
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
-  sidebar: ["root/intro"],
   objects: [
     "objects/user",
     "objects/user-settings",

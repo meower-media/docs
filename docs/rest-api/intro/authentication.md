@@ -39,7 +39,15 @@ If any error occurs, including account not existing or incorrect password, a 401
 ```
 :::
 
-After that, you will get a [User object](/objects/user).
+After that, you will get the following:
+```json
+{  
+  "account": "user object",
+  "error": "error status",  
+  "token": "token"
+}  
+```
+Where ``account`` is a [User object](/objects/user).
 
 ---
 

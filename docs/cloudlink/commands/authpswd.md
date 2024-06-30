@@ -5,7 +5,7 @@ sidebar_label: authpswd
 
 # `authpswd`
 
-This command is used to log into the Meower CloudLink server.
+This command is used to log into the Meower CloudLink server. You need to log into it in order to receive updates to chats you're in, for example.
 
 :::warning
 Although this can be used to get a token, a new and more efficient way has been developed, using a single HTTP request. Head over to the [Authentication section](/rest-api/intro/authentication) to check it.

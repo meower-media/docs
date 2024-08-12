@@ -1,0 +1,33 @@
+{
+	"tasks": {
+		"dev": "deno run -A npm:vitepress dev",
+		"build": "deno run -A npm:vitepress build"
+	},
+	"imports": {
+		"vitepress": "npm:vitepress@^1.3.2",
+		"vitepress-sidebar": "npm:vitepress-sidebar@^1.24.1"
+	},
+	"fmt": {
+		"lineWidth": 80,
+		"proseWrap": "always",
+		"semiColons": true,
+		"useTabs": true,
+		"singleQuote": true,
+		"exclude": [".vitepress/cache", ".vitepress/dist"]
+	},
+	"lint": {
+		"rules": {
+			"include": [
+				"ban-untagged-todo",
+				"default-param-last",
+				"eqeqeq",
+				"no-eval",
+				"triple-slash-reference",
+				"verbatim-module-syntax"
+			]
+		},
+		"exclude": [".vitepress/cache", ".vitepress/dist"]
+	},
+	"nodeModulesDir": true,
+	"lock": false
+}

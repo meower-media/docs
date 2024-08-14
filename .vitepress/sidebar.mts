@@ -6,7 +6,7 @@ export const sidebar: DefaultTheme.SidebarItem[] = [{
 	items: [
 		{
 			text: 'API Reference',
-			link: '/api/rest.html',
+			link: 'https://docs.meower.org/api/rest.html',
 		},
 		{
 			text: 'Cloudlink',

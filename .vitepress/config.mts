@@ -9,7 +9,6 @@ export default defineConfig({
 	head: [['link', { rel: 'icon', href: '/logo.svg' }]],
 	ignoreDeadLinks: true,
 	lang: 'en-US',
-	mpa: true,
 	srcDir: 'docs',
 	title: 'Meower Docs',
 	themeConfig: {

@@ -1,23 +1,27 @@
 # Chat
 
 :::warning
-The chat `livechat` is a special chat. It doesn't require you to be a
-member to access it, posts aren't saved to the database, and the chat nor its
-previous posts can be fetched.
+
+The chat `livechat` is a special chat. It doesn't require you to be a member to
+access it, posts aren't saved to the database, and the chat nor its previous
+posts can be fetched.
+
 :::
 
 ### Structure
 
-| Field       | Type               | Description                                                        | Optional |
-| ----------- | ------------------ | ------------------------------------------------------------------ | -------- |
-| _id         | UUID4              | The chat's UUID4.                                                  |          |
-| type        | integer            | The type of the chat. Will be `0` for group chats and `1` for DMs. |          |
-| nickname*   | string             | The nickname of the chat.                                          | ✓        |
-| owner*      | string             | The username of the user who owns the chat.                        | ✓        |
-| members     | array of usernames | The usernames of the users who are a member of the chat.           |          |
-| created     | integer            | The chat's creation timestamp in Unix seconds.                     |          |
-| last_active | integer            | The timestamp in Unix seconds of the last post in the chat.        |          |
-| deleted     | boolean            | Whether the chat is soft-deleted by a moderator.                   |          |
+<!-- deno-fmt-ignore-start -->
+| Field | Type | Description | Optional |
+| - | - | - | - |
+| _id | UUID4 | The chat's UUID4. | |
+| type | integer | The type of the chat. Will be `0` for group chats and `1` for DMs. | |
+| nickname* | string | The nickname of the chat. | ✓ |
+| owner* | string | The username of the user who owns the chat. | ✓ |
+| members | array of usernames | The usernames of the users who are a member of the chat. | |
+| created | integer | The chat's creation timestamp in Unix seconds. | |
+| last_active | integer | The timestamp in Unix seconds of the last post in the chat. | |
+| deleted | boolean | Whether the chat is soft-deleted by a moderator. | |
+<!-- deno-fmt-ignore-end -->
 
 **\* These fields are only returned when the chat is a group chat.**
 

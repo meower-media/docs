@@ -2,20 +2,22 @@
 
 ### Structure
 
-| Field        | Type                                              | Description                                                                              | Optional |
-| ------------ | ------------------------------------------------- | ---------------------------------------------------------------------------------------- | -------- |
-| _id          | UUID4                                             | The post's UUID4.                                                                        |          |
-| post_id      | UUID4                                             | The post's UUID4.                                                                        |          |
-| post_origin  | string/UUID4                                      | Where the post was created. Can be `"home"`, `"inbox"`, `"livechat"`, or a chat's UUID4. |          |
-| type         | integer                                           | The post's type.                                                                         |          |
-| t            | [Extended Timestamp](./extended-timestamp) object | The post's creation timestamp.                                                           |          |
-| u            | string                                            | The username of the post author.                                                         |          |
-| p            | string                                            | The content of the post.                                                                 |          |
-| unfiltered_p | string                                            | The non-filtered content of the post.                                                    | ✓        |
-| pinned       | boolean                                           | Whether the post is pinned.                                                              |          |
-| isDeleted    | boolean                                           | Whether the post is deleted.                                                             |          |
-| mod_deleted  | boolean                                           | Whether the post was deleted by a moderator.                                             | ✓        |
-| deleted_at   | integer                                           | The post's deletion timestamp in Unix seconds.                                           | ✓        |
+<!-- deno-fmt-ignore-start -->
+| Field | Type | Description | Optional |
+| - | - | - | - |
+| _id | UUID4 | The post's UUID4. | |
+| post_id | UUID4 | The post's UUID4. | |
+| post_origin | string/UUID4 | Where the post was created. Can be `"home"`, `"inbox"`, `"livechat"`, or a chat's UUID4. | |
+| type | integer | The post's type. | |
+| t | [Extended Timestamp](./extended-timestamp) object | The post's creation timestamp. | |
+| u | string | The username of the post author. | |
+| p | string | The content of the post. | |
+| unfiltered_p | string | The non-filtered content of the post. | ✓ |
+| pinned | boolean | Whether the post is pinned. | |
+| isDeleted | boolean | Whether the post is deleted. | |
+| mod_deleted | boolean | Whether the post was deleted by a moderator. | ✓ |
+| deleted_at | integer | The post's deletion timestamp in Unix seconds. | ✓ |
+<!-- deno-fmt-ignore-end -->
 
 ### Examples
 

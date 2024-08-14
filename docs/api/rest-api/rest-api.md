@@ -24,13 +24,15 @@ response. For other status codes, this key is set to `true`, and another key,
 `type`, is added. Many status codes have predefined messages, listed below.
 Different ones may be used for certain errors by some endpoints.
 
-| Status code | Error type           | Notes                                                                                                                                        |
-| ----------- | -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| 400         | `badRequest`         | This is sent when the body is not JSON or follows the schema required by the endpoint, or when the `Content-Type` header is set incorrectly. |
-| 401         | `Unauthorized`       | This is sent by endpoints that require authorization if no token is passed.                                                                  |
-| 403         | `missingPermissions` |                                                                                                                                              |
-| 404         | `notFound`           | This is sent when an endpoint is not found, but also when specific data of an endpoint is not found.                                         |
-| 405         | `methodNotAllowed`   |                                                                                                                                              |
-| 429         | `tooManyRequests`    | This can be sent by any endpoint.                                                                                                            |
-| 500         | `Internal`           | This can be sent by any endpoint.                                                                                                            |
-| 501         | `notImplemented`     |                                                                                                                                              |
+<!-- deno-fmt-ignore-start -->
+| Status code | Error type | Notes |
+| - | - | - |
+| 400 | `badRequest` | This is sent when the body is not JSON or follows the schema required by the endpoint, or when the `Content-Type` header is set incorrectly. |
+| 401 | `Unauthorized` | This is sent by endpoints that require authorization if no token is passed. |
+| 403 | `missingPermissions` | |
+| 404 | `notFound` | This is sent when an endpoint is not found, but also when specific data of an endpoint is not found. |
+| 405 | `methodNotAllowed` | |
+| 429 | `tooManyRequests` | This can be sent by any endpoint. |
+| 500 | `Internal` | This can be sent by any endpoint. |
+| 501 | `notImplemented` | |
+<!-- deno-fmt-ignore-end -->

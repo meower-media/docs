@@ -1,7 +1,3 @@
--
-
-## title: authpswd command
-
 # `authpswd`
 
 This command is used to log into Meower.

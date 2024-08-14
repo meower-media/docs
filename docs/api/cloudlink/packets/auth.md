@@ -1,7 +1,3 @@
--
-
-## title: auth packet
-
 # `auth`
 
 This packet is sent when the user has successfully logged in. It has two keys: a

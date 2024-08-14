@@ -1,24 +1,24 @@
 # User Settings
 
-:::tip
-These fields will be **appended onto the [User object](/objects/user)**
-when a user is fetching their own user profile.
-:::
+:::tip These fields will be **appended onto the [User object](/objects/user)**
+when a user is fetching their own user profile. :::
 
 ### Structure
 
-| Field              | Type            | Description                                                              |
-| ------------------ | --------------- | ------------------------------------------------------------------------ |
-| unread_inbox       | boolean         | Whether the user has an unread inbox message.                            |
-| theme              | string          | The user's prefered theme (usually "orange", "blue", or a custom theme). |
-| mode               | boolean         | Whether the user prefers light mode.                                     |
-| layout             | string          | The user's preferred layout (usually "new" or "old").                    |
-| sfx                | boolean         | Whether the user prefers sound effects.                                  |
-| bgm                | boolean         | Whether the user prefers background music.                               |
-| bgm_song           | integer         | The user's preferred background music song.                              |
-| hide_blocked_users | boolean         | Whether the user prefers to hide blocked users.                          |
-| active_dms         | array of UUID4s | An array of the last 150 direct message chat UUID4s the user has open.   |
-| favorited_chats    | array of UUID4s | An array of the chat UUID4s the user has favorited.                      |
+<!-- deno-fmt-ignore-start -->
+| Field | Type | Description |
+| - | - | - |
+| unread_inbox | boolean | Whether the user has an unread inbox message. |
+| theme | string | The user's prefered theme (usually "orange", "blue", or a custom theme). |
+| mode | boolean | Whether the user prefers light mode. |
+| layout | string | The user's preferred layout (usually "new" or "old"). |
+| sfx | boolean | Whether the user prefers sound effects. |
+| bgm | boolean | Whether the user prefers background music. |
+| bgm_song | integer | The user's preferred background music song. |
+| hide_blocked_users | boolean | Whether the user prefers to hide blocked users. |
+| active_dms | array of UUID4s | An array of the last 150 direct message chat UUID4s the user has open. |
+| favorited_chats | array of UUID4s | An array of the chat UUID4s the user has favorited. |
+<!-- deno-fmt-ignore-end -->
 
 ### Example
 

@@ -1,6 +1,6 @@
----
-title: auth packet
----
+-
+
+## title: auth packet
 
 # `auth`
 
@@ -9,12 +9,14 @@ This packet is sent when the user has successfully logged in. It has two keys: a
 
 ## Payload
 
-| Field         | Type                              | Description                                                                                                         |
-| ------------- | --------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| username      | string                            | The username of the account.                                                                                        |
-| token         | string                            | The token of this connection. A new one will be generated each time, but they don't expire unless manually revoked. |
-| account       | [User](../../objects/user) object | The account information of the logged in account.                                                                   |
-| relationships | array of relationships            | See below for more details.                                                                                         |
+<!-- deno-fmt-ignore-start -->
+| Field | Type | Description |
+| - | - | - |
+| username | string | The username of the account. |
+| token | string | The token of this connection. A new one will be generated each time, but they don't expire unless manually revoked. |
+| account | [User](../../objects/user) object | The account information of the logged in account. |
+| relationships | array of relationships | See below for more details. |
+<!-- deno-fmt-ignore-end -->
 
 ## Relationship
 

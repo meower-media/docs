@@ -1,7 +1,9 @@
 # User Ban
 
-:::info The User Ban object is only used within the `ban` field on
-[User objects](./user). It should not appear anywhere else. :::
+:::info
+The User Ban object is only used within the `ban` field on
+[User objects](./user). It should not appear anywhere else.
+:::
 
 ### Structure
 

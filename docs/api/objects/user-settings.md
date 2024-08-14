@@ -1,7 +1,9 @@
 # User Settings
 
-:::tip These fields will be **appended onto the [User object](/objects/user)**
-when a user is fetching their own user profile. :::
+:::tip
+These fields will be **appended onto the [User object](/objects/user)**
+when a user is fetching their own user profile.
+:::
 
 ### Structure
 

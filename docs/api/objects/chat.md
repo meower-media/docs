@@ -1,8 +1,10 @@
 # Chat
 
-:::warning The chat `livechat` is a special chat. It doesn't require you to be a
+:::warning
+The chat `livechat` is a special chat. It doesn't require you to be a
 member to access it, posts aren't saved to the database, and the chat nor its
-previous posts can be fetched. :::
+previous posts can be fetched.
+:::
 
 ### Structure
 

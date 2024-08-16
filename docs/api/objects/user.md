@@ -101,3 +101,16 @@ this can be consisely written as `(permissions & (1 << permission)) != 0`.
 	"last_seen": 1706574821
 }
 ```
+
+#### Post Users
+
+```json
+{
+	"_id": "ShowierData9978",
+	"avatar": "gl4zm8aGO2U3MOUANDNMpnSA",
+	"avatar_color": "007ffd",
+	"flags": 0,
+	"pfp_data": 21,
+	"uuid": "4f4d986b-63ef-4f7d-9b8b-87368c6e0280"
+}
+```

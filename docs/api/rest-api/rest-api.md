@@ -1,8 +1,7 @@
 # Rest API
 
 This section describes the Rest API found at <https://api.meower.org> based on
-its behavior and source code found at
-<https://github.com/meower-media/server>.
+its behavior and source code found at <https://github.com/meower-media/server>.
 
 The Meower API uses JSON both for recieving and responding to requests.
 

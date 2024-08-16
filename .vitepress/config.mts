@@ -13,8 +13,7 @@ export default defineConfig({
 	title: 'Meower Docs',
 	themeConfig: {
 		editLink: {
-			pattern:
-				'https://github.com/meower-media/docs/edit/main/docs/:path',
+			pattern: 'https://github.com/meower-media/docs/edit/main/docs/:path',
 		},
 		nav: [
 			{ text: 'Home', link: '/' },

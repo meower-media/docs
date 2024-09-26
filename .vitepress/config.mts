@@ -14,7 +14,7 @@ export default defineConfig({
 	themeConfig: {
 		editLink: {
 			pattern:
-				'https://github.com/meower-media-co/api-client/edit/main/docs/:path',
+				'https://github.com/meower-media/docs/edit/main/docs/:path',
 		},
 		nav: [
 			{ text: 'Home', link: '/' },
@@ -39,7 +39,7 @@ export default defineConfig({
 		socialLinks: [
 			{
 				icon: 'github',
-				link: 'https://github.com/meower-media-co',
+				link: 'https://github.com/meower-media',
 			},
 		],
 	},

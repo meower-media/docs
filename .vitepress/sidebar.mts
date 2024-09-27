@@ -17,14 +17,10 @@ export const sidebar: DefaultTheme.SidebarItem[] = [{
 					link: '/api/cloudlink/intro',
 				},
 				{
-					text: 'Commands',
-					collapsed: true,
-					items: [
-						{
-							text: 'authpswd command',
-							link: '/api/cloudlink/commands/authpswd',
-						},
-					],
+
+					text: 'authpswd command',
+					link: '/api/cloudlink/commands/authpswd',
+						
 				},
 				{
 					text: 'Packets',

@@ -9,7 +9,7 @@ export const sidebar: DefaultTheme.SidebarItem[] = [{
 			link: 'https://docs.meower.org/api/rest.html',
 		},
 		{
-			text: 'Cloudlink',
+			text: 'Cloudlink (websocket)',
 			collapsed: true,
 			items: [
 				{
@@ -17,12 +17,36 @@ export const sidebar: DefaultTheme.SidebarItem[] = [{
 					link: '/api/cloudlink/intro',
 				},
 				{
-					text: 'authpswd command',
-					link: '/api/cloudlink/commands/authpswd',
+					text: 'Commands',
+					collapsed: true,
+					items: [
+						{
+							text: 'authpswd command',
+							link: '/api/cloudlink/commands/authpswd',
+						},
+					],
 				},
 				{
-					text: 'auth packet',
-					link: '/api/cloudlink/packets/auth',
+					text: 'Packets',
+					collapsed: true,
+					items: [
+						{
+							text: 'auth',
+							link: '/api/cloudlink/packets/auth',
+						},
+						{
+							text: 'delete post',
+							link: '/api/cloudlink/packets/delete_post'
+						},
+						{
+							text: 'typing',
+							link: '/api/cloudlink/packets/typing'
+						},
+						{
+							text: 'ulist',
+							link: '/api/cloudlink/packets/ulist'
+						},
+					],
 				},
 			],
 		},

@@ -8,4 +8,3 @@
     - The general request/response shape
 -->
 
-This section is out of date.

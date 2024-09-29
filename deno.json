@@ -28,6 +28,6 @@
 		},
 		"exclude": [".vitepress/cache", ".vitepress/dist"]
 	},
-	"nodeModulesDir": true,
+	"nodeModulesDir": "auto",
 	"lock": false
 }

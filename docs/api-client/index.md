@@ -33,11 +33,11 @@ deno add @meower/api-client
 
 ```html [browsers]
 <script type="importmap">
-    {
-        "imports": {
-            "@meower/api-client": "https://esm.sh/jsr/@meower/api-client@latest"
-        }
-    }
+	{
+		"imports": {
+			"@meower/api-client": "https://esm.sh/jsr/@meower/api-client@latest"
+		}
+	}
 </script>
 ```
 

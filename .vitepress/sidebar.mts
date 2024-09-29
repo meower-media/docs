@@ -21,8 +21,26 @@ export const sidebar: DefaultTheme.SidebarItem[] = [{
 					link: '/api/cloudlink/commands/authpswd',
 				},
 				{
-					text: 'auth packet',
-					link: '/api/cloudlink/packets/auth',
+					text: 'Packets',
+					collapsed: true,
+					items: [
+						{
+							text: 'auth',
+							link: '/api/cloudlink/packets/auth',
+						},
+						{
+							text: 'delete post',
+							link: '/api/cloudlink/packets/delete_post',
+						},
+						{
+							text: 'typing',
+							link: '/api/cloudlink/packets/typing',
+						},
+						{
+							text: 'ulist',
+							link: '/api/cloudlink/packets/ulist',
+						},
+					],
 				},
 			],
 		},

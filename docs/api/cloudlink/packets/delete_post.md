@@ -1,6 +1,7 @@
 # `delete_post`
 
-This packet is sent when a is deleted, when a client gets this packet, it should search any local cache for the post_id and remove any matching posts.
+This packet is sent when a post is deleted. 
+
 ## Payload
 
 <!-- deno-fmt-ignore-start -->

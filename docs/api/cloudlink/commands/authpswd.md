@@ -2,9 +2,11 @@
 
 :::warning
 
-This page is out of date, use
-[/auth/login](https://docs.meower.org/api/rest#/operations/post_login) from the
-REST api instead.
+This page is out of date. Instead of using `authpswd`, it is recommended to get
+a token from
+[/auth/login](https://docs.meower.org/api/rest#/operations/post_login) with the
+REST API, then connect to the websocket with the URL
+`wss://server.meower.org/?v=1&token={your token from api}`
 
 :::
 

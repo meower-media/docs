@@ -1,5 +1,11 @@
 # `authpswd`
 
+:::warning
+
+This page is out of date
+
+:::
+
 This command is used to log into Meower.
 
 ## Request

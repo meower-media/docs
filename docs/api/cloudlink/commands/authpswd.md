@@ -2,7 +2,9 @@
 
 :::warning
 
-This page is out of date, use [/auth/login](https://docs.meower.org/api/rest#/operations/post_login) from the REST api instead.
+This page is out of date, use
+[/auth/login](https://docs.meower.org/api/rest#/operations/post_login) from the
+REST api instead.
 
 :::
 
